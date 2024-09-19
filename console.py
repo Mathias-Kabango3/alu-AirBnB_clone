@@ -52,11 +52,6 @@ class HBNBCommand(cmd.Cmd):
     def emptyline(self):
         """
         Called when an empty line is entered.
-        If this method is not overridden like this,
-        it repeats the last nonempty
-        command entered.
-        It should not be empty_line, so ignore the typo warnings.
-        (see: https://github.com/python/cpython/blob/3.11/Lib/cmd.py)
         """
         pass
 
